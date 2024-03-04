@@ -65,7 +65,6 @@ public void displayLosingMessage()
     }
   }
   
-  noLoop();
 }
 
 public void displayWinningMessage()
@@ -136,7 +135,7 @@ public class MSButton
        clicked = false;
     }else if (mines.contains(this)){
        displayLosingMessage(); 
-       //noLoop();
+       noLoop();
     }else if(countMines(myRow,myCol)>0){
       setLabel(countMines(myRow,myCol));
     }else {
