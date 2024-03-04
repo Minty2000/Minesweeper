@@ -64,7 +64,7 @@ public void displayLosingMessage()
         buttons[r][c].setLabel("X");
     }
   }
-  
+  noLoop();
   
 }
 
@@ -136,7 +136,7 @@ public class MSButton
        clicked = false;
     }else if (mines.contains(this)){
        displayLosingMessage(); 
-       noLoop();
+       //noLoop();
     }else if(countMines(myRow,myCol)>0){
       setLabel(countMines(myRow,myCol));
     }else {
