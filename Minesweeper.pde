@@ -65,7 +65,7 @@ public void displayLosingMessage()
     }
   }
   
-  
+  noLoop();
 }
 
 public void displayWinningMessage()
