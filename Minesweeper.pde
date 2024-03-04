@@ -64,7 +64,7 @@ public void displayLosingMessage()
         buttons[r][c].setLabel("X");
     }
   }
-  noLoop();
+  
   
 }
 
